@@ -17,3 +17,14 @@ to the repositories block
 Usage
 -----
 You don't have to do anything. This plugins hooks into the normal Asset-Pipeline Cycle for Javascript files and does the transformation for you.
+
+This means you can write stuff like
+```
+var foo = "sparta";
+console.log(`this is ${foo}`)
+```
+and the plugin transforms it into:
+```
+var foo = "sparta";
+console.log("this is " + foo);
+```
