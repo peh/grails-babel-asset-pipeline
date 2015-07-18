@@ -7,12 +7,7 @@ add
 ```
 compile(':babel-asset-pipeline:1.0.0')
 ```
-to your BuildConfig.groovy's plugins block and
-
-```
-mavenRepo "http://dl.bintray.com/errbuddy/plugins"
-```
-to the repositories block
+to your BuildConfig.groovy's plugins block
 
 Usage
 -----
