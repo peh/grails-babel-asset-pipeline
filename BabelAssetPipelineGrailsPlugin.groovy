@@ -1,6 +1,6 @@
 class BabelAssetPipelineGrailsPlugin {
     // the plugin version
-    def version = "1.0.0"
+    def version = "1.0.1"
     def grailsVersion = "2.2 > *"
     def title = "React Asset-Pipeline Plugin"
     def author = "Philipp Eschenbach"
