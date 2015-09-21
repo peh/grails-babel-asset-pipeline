@@ -1,25 +1,29 @@
 # grails-babel-asset-pipeline
 babel.js transformation for grails-asset-pipeline
 
-Installation
+# Installation
 -----
 add
 ```
-compile(':babel-asset-pipeline:1.0.0')
+compile(':babel-asset-pipeline:1.3.1')
 ```
 to your BuildConfig.groovy's plugins block
 
-Usage
 -----
-You don't have to do anything. This plugins hooks into the normal Asset-Pipeline Cycle for Javascript files and does the transformation for you.
 
-This means you can write stuff like
+# Configuration
 ```
-var foo = "sparta";
-console.log(`this is ${foo}`)
+grails.asset.babel.enabled = true // boolean 
 ```
-and the plugin transforms it into:
+default to true. enables the plugin
+
 ```
-var foo = "sparta";
-console.log("this is " + foo);
+grails.asset.babel.processJsFiles = false // boolean
 ```
+defaults to false. Whether to process JsAssetFiles (.js) too. *By default to Processor only touches Es6AssetFiles (.es6)!*
+
+```
+grails.asset.babel.options = [blacklist: ['useStrict'], loose: 'all'] // babel transfom options. see https://babeljs.io/docs/usage/options/ for more information
+```
+defaults to null. A Map of options passed to babels transform method. see https://babeljs.io/docs/usage/options/ for possible values
+
