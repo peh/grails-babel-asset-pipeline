@@ -20,7 +20,7 @@ default to true. enables the plugin
 ```
 grails.asset.babel.processJsFiles = false // boolean
 ```
-defaults to false. Whether to process JsAssetFiles (.js) too. *By default to Processor only touches Es6AssetFiles (.es6)!*
+defaults to false. Whether to process JsAssetFiles (.js) too. **By default to Processor only touches Es6AssetFiles (.es6)!**
 
 ```
 grails.asset.babel.options = [blacklist: ['useStrict'], loose: 'all'] // babel transfom options. see https://babeljs.io/docs/usage/options/ for more information
