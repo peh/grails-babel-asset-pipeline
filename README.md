@@ -15,7 +15,7 @@ to your BuildConfig.groovy's plugins block
 ```
 grails.assets.babel.enabled = true // boolean 
 ```
-default to true. enables the plugin
+default to false.  Make sure to set to true to enable this feature!
 
 ```
 grails.assets.babel.processJsFiles = false // boolean
