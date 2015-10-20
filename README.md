@@ -13,17 +13,17 @@ to your BuildConfig.groovy's plugins block
 
 # Configuration
 ```
-grails.asset.babel.enabled = true // boolean 
+grails.assets.babel.enabled = true // boolean 
 ```
 default to true. enables the plugin
 
 ```
-grails.asset.babel.processJsFiles = false // boolean
+grails.assets.babel.processJsFiles = false // boolean
 ```
 defaults to false. Whether to process JsAssetFiles (.js) too. **By default to Processor only touches Es6AssetFiles (.es6)!**
 
 ```
-grails.asset.babel.options = [blacklist: ['useStrict'], loose: 'all'] // babel transfom options. see https://babeljs.io/docs/usage/options/ for more information
+grails.assets.babel.options = [blacklist: ['useStrict'], loose: 'all'] // babel transfom options. see https://babeljs.io/docs/usage/options/ for more information
 ```
 defaults to null. A Map of options passed to babels transform method. see https://babeljs.io/docs/usage/options/ for possible values
 
