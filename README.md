@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/errbuddy/babel-asset-pipeline.svg?branch=master)](https://travis-ci.org/errbuddy/babel-asset-pipeline)
+
 # grails-babel-asset-pipeline
 babel.js transformation for grails-asset-pipeline
 
