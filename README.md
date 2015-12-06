@@ -7,7 +7,7 @@ babel.js transformation for grails-asset-pipeline
 -----
 add
 ```
-compile(':babel-asset-pipeline:1.3.1')
+compile(':babel-asset-pipeline:1.4.2')
 ```
 to your BuildConfig.groovy's plugins block
 
