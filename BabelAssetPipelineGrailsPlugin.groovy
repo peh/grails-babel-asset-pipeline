@@ -1,6 +1,6 @@
 class BabelAssetPipelineGrailsPlugin {
     // the plugin version
-    def version = "1.4.2"
+    def version = "1.4.3"
     def grailsVersion = "2.2 > *"
     def title = "Babel Asset-Pipeline Plugin"
     def author = "Philipp Eschenbach"
